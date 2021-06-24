@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    height: 90px;
+    width: 500px;
+    margin-top: 3em;
+    text-align: center;
+
+}
+.banner h1{
+    color: #ecbe74;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+}
+.weatherInput{
+    height: 150px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enterWeather{
+    width: 330px;
+    height: 45px;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: 1.5px solid black;
+
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(105, 104, 104);
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    top: 30;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+}
+.weatherOutput{
+    height: 280px;
+    width: 330px;
+    border: 1.5px solid black;
+    border-radius: 12px;
+    
+}
+.name{
+    height: 40px;
+    width: 300px;
+    border: 2px solid #ecbe74;
+    border-radius: 4px;
+    position: relative;
+    top: 10;
+    left:10;
+    right:5;
+    padding: .1em;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.li{
+    list-style-type: none;
+    position: relative;
+    top: 20;
+    left:10;
+    right: 5;
+    height: 53px;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+#main{
+    font-size: 1.5em;
+}

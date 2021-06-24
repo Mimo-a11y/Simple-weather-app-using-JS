@@ -1,0 +1,37 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="header" class="banner">
+            <h1>Weather</h1>
+        </div>
+        <div id="input" class="weatherInput">
+            <input type="text" id="weather" class="enterWeather" placeholder="Enter a City" />
+            <button id="search" class="btn" onclick="searchCity()">Search</button>
+        </div>
+        <div id="output" class="weatherOutput">
+            <div id="cityName" class="name">
+            </div>
+            <div id="weatherInfo" class="info">
+                <ul>
+                    <li class="li main"><span id="main">---------</span></li>
+                    <li class="li temp">Temp:     <span id="temp">----</span> &deg;F </li>
+                    <li class="li minTemp">Min-Temp:   <span id="minTemp">----</span> &deg;F</li>
+                    <li class="li maxTemp">Max-Temp:     <span id="maxTemp">----</span> &deg;F</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
